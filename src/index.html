@@ -1,25 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="favicon.png">
+    <meta
+      name="description"
+      content="Story App - Bagikan cerita dan momen spesialmu"
+    />
+    <meta name="theme-color" content="#22c55e" />
+    <meta name="view-transition" content="same-origin" />
 
-    <title>App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <title>Story App</title>
+    <script
+      src="https://kit.fontawesome.com/c47a0b9424.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <div class="main-header container">
-        <a class="brand-name" href="#/">App</a>
+        <a class="brand-name" href="#/">Story App</a>
 
         <nav id="navigation-drawer" class="navigation-drawer">
-          <ul id="nav-list" class="nav-list">
-            <li><a href="#/">Beranda</a></li>
-            <li><a href="#/about">About</a></li>
-          </ul>
+          <div id="nav-list" role="navigation"></div>
         </nav>
 
-        <button id="drawer-button" class="drawer-button">☰</button>
+        <button
+          id="drawer-button"
+          class="drawer-button"
+          aria-label="Toggle navigation menu"
+        >
+          ☰
+        </button>
       </div>
     </header>
 
